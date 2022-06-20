@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi String dan Number</title>
+</head>
+<body>
+    <script>
+
+        const value1 = parseInt("1");
+        const value2 = 1;
+        const sum = value1 + value2;
+        document.writeln(`<p> ${sum} </p>`)
+
+        document.writeln(`<p> ${parseInt("1.1")} </p>`)
+        document.writeln(`<p> ${parseFloat("1.1")} </p>`)
+        document.writeln(`<p> ${Number("1.1")} </p>`)
+
+        document.writeln(`<p> ${parseInt("Wrong")} </p>`)
+        document.writeln(`<p> ${parseFloat("1.1oryza")} </p>`)
+
+        const val1 = Number("salah")
+        const val2 = val1 + 100;
+        document.writeln(`<p> ${val2} </p>`)
+
+        document.writeln(`<p> ${isNaN(val1)} </p>`)
+        
+
+
+
+
+    </script>
+    
+</body>
+</html>

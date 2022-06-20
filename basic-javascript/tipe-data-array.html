@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipe data array</title>
+</head>
+<body>
+    <script>
+        let arrayKosong = [];
+        let arrayNama = ["Oryza", "Valendio", "JavaScript"];
+
+        const name = [];
+        name.push("Oryza");
+        name.push("Valendio", "javaScript");
+        name.push("albert", "Johan");
+
+        console.table(name);
+
+        console.info(name[0]);
+        console.info(name[1]);
+        console.info(name[2]);
+
+        name[0] = "Programmer";
+
+        delete name[3];
+        console.table(name);
+
+        name.push("Learning");
+        console.table(name);
+
+        name.push(["oryza", "valendio", "javascript"]);
+        console.table(name);
+
+
+
+
+    </script>
+    
+</body>
+</html>

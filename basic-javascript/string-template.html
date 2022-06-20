@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <script>
+        const name = "Oryza valendio";
+        const firsName = "Oryza";
+        const lastName = "Valendio";
+        const nilai = 80;
+
+
+        const template = `name : ${name}, ${firsName} ${lastName} `;
+
+        console.info(template);
+
+        const template2 = `name : ${name}, Lulus : ${nilai > 75}`;
+        console.info(template2); 
+
+        const multiline = `
+        i'm oryza valendio
+        i love coding
+        sometimes i'm bored with code
+        but i still love it`;
+
+        document.writeln("<pre>")
+            document.writeln(multiline)
+        document.writeln("</pre>")
+    </script>
+    
+</body>
+</html>
