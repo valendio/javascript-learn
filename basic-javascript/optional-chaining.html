@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optional-Chaining</title>
+</head>
+<body>
+    <script>
+        const person= {
+            addres : {
+                country : "Indonesia"
+            }
+        };
+
+        let country = person?.addres?.country;
+
+        // if (country !== undefined && country !== null) {
+        //     country = person.addres.country;
+        // }
+
+        document.writeln("Sukses");
+        document.writeln(`<p>${country}</p>`);
+        document.writeln("Sukses")
+    </script>
+    
+</body>
+</html>

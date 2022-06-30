@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Logika</title>
+</head>
+<body>
+
+    <script>
+        console.info("Operator || non Boolean") //Diambil yang truthy jika semua truty diambil truthy yang kiri
+        console.info("Hello" || ""); //
+        console.info("" || []);
+        console.info("0" || "NOL");
+        console.info(0 || "NOL");
+        console.info(null || "NULL");
+        console.info(undefined || "UNDEFINED");
+        console.info(0 || false); 
+
+        console.info("Operator && non boolean"); //Diambil yang Falsy jika semua falsy diambil falsy yang pertama
+
+        console.info("Hello" && ``);
+        console.info("" && []);
+        console.info("0" && "NOL");
+        console.info(null && "NULL");
+        console.info(undefined && "UNDEFINED");
+        console.info("NULL" && "UNDEFINED");
+    </script>
+    
+</body>
+</html>
